@@ -1,0 +1,78 @@
+= Java FullStack Springboot Angular
+:toc: left
+:toclevels: 5
+:sectnums:
+:sectnumlevels: 5
+
+NOTE: NOTE
+
+TIP: TIP
+
+IMPORTANT: IMPORTANT
+
+CAUTION: CAUTION
+
+WARNING: WARNING
+
+[cols="1,3"]
+|===
+| Name | Description
+
+| Asciidoctor
+| Awesome way to write documentation
+
+|===
+
+== Course Name
+
+=== Section 2
+
+*Step 01 - Understanding Full Stack Application Architecture*
+
+* Angular makes use of typescript. If you're new to typescript, then typescript is nothing but modern Javascript + typing
+
+* Why should you create a separate back-end, and a separate front-end? And there is a lot of complexity associated with building separate back-end. For instance, you need to understand multiple languages. You need to understand multiple frameworks, like SpringBoot and Angular. Why should you do that? The most important reason is to create a flexible architecture, which can be extended to meet the future needs.
+
+*Installing Angular CLI - Awesome Tool to create Angular Projects*
+
+Angular CLI not only helps you create new Angular applications, but also it helps you to generate a lot of code while we are developing the angular application. It helps us to run our application locally, and also run our unit tests. integration tests, run our code quality checks and things like that.
+
+----
+node -v
+
+npm -v
+
+npm install -g @angular/cli
+
+ng version
+
+ng help
+
+----
+
+*Creating and Launching Angular Application with Angular CLI*
+
+----
+ng new todo
+
+cd todo
+
+ng serve
+
+http://localhost:4200/
+----
+
+*Exploring Angular CLI Commands - test, lint, e2e, serve, build*
+
+----
+ng lint
+
+ng build
+
+ng test
+
+ng e2e
+----
+
+
+
